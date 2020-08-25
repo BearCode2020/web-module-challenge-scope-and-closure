@@ -63,8 +63,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  - Closure is used in the function within personalDice. The information is created within the function, and can only be accessed by accessing the function peronsalDice.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  - What remains the same is the string applied to the roll, and what changes is the value associated with the roll.
+
 c. What is the lexical scope of `newRoll`? 
+
+  - newRoll is locked behind the function of personalDice, and cannot be accessed globally.
 
 ### Task 2c - Exit Ticket
 
